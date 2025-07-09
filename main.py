@@ -11,8 +11,8 @@ import numpy as np
 import os
 
 MODEL_PATH = os.path.join("models", "tb_pneumonia_model.pth")
-VAL_DIR = "train"  # Validation directory
-IMAGE_PATH = "images/TB-2.jpeg"  # Image for inference
+VAL_DIR = "train"  
+IMAGE_PATH = "images/TB-2.jpeg"  # Image 
 BATCH_SIZE = 16
 LABELS = {0: "Normal", 1: "Tuberculosis", 2: "Pneumonia"}
 
